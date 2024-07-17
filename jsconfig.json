@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": ["./pages/api/*"],
+      "@components/*": ["./components/*"],
+      "@constants/*": ["./constants/*"],
+      "@hooks/*": ["./hooks/*"],
+      "@pages/*": ["./pages/*"],
+      "@public/*": ["./public/*"],
+      "@services/*": ["./services/*"],
+      "@store/*": ["./store/*"],
+      "@utils/*": ["./utils/*"],
+      "@styles/*": ["./styles/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.js", "**/*.jsx"]
+}
